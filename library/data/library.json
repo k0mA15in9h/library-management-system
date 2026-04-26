@@ -1,0 +1,78 @@
+{
+    "books": [
+        {
+            "isbn": "9780134685991",
+            "title": "effective java",
+            "author": "joshua bloch",
+            "copies_total": 5,
+            "copies_available": 4
+        },
+        {
+            "isbn": "9780131103627",
+            "title": "the c programing language",
+            "author": "dennis ritchie, brian kernig",
+            "copies_total": 7,
+            "copies_available": 7
+        },
+        {
+            "isbn": "9781617294945",
+            "title": "spring in action",
+            "author": "craig walls",
+            "copies_total": 10,
+            "copies_available": 10
+        },
+        {
+            "isbn": "9780134494166",
+            "title": "computer networking",
+            "author": "James Kurose",
+            "copies_total": 4,
+            "copies_available": 3
+        }
+    ],
+    "members": [
+        {
+            "member_id": "2505039437",
+            "name": "komal singh",
+            "fines_due": 0.0
+        },
+        {
+            "member_id": "2556466",
+            "name": "komal",
+            "fines_due": 0.0
+        },
+        {
+            "member_id": "2505039438",
+            "name": "anant",
+            "fines_due": 0.0
+        }
+    ],
+    "transactions": [
+        {
+            "transaction_id": "b9e7b1c6",
+            "isbn": "9780134494166",
+            "member_id": "2556466",
+            "issue_date": "2026-04-19",
+            "due_date": "2026-05-03",
+            "return_date": null,
+            "fine_paid": 0.0
+        },
+        {
+            "transaction_id": "212267c7",
+            "isbn": "9780134494166",
+            "member_id": "2505039438",
+            "issue_date": "2026-04-19",
+            "due_date": "2026-05-03",
+            "return_date": "2026-04-19",
+            "fine_paid": 0.0
+        },
+        {
+            "transaction_id": "be0f656f",
+            "isbn": "9780134685991",
+            "member_id": "2505039438",
+            "issue_date": "2026-04-19",
+            "due_date": "2026-05-03",
+            "return_date": null,
+            "fine_paid": 0.0
+        }
+    ]
+}
